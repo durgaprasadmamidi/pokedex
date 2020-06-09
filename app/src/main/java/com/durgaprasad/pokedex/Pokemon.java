@@ -2,18 +2,18 @@ package com.durgaprasad.pokedex;
 
 public class Pokemon {
     private String name;
-    private int id;
+    private String url;
 
-    public Pokemon(String name, int id) {
+    public Pokemon(String name, String  url) {
         this.name = name;
-        this.id = id;
+        this.url = url;
     }
 
     public String getName() {
         return name;
     }
 
-    public int getId() {
-        return id;
+    public String  getUrl() {
+        return url;
     }
 }
