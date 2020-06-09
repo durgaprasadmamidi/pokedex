@@ -12,6 +12,7 @@
     <androidx.appcompat.widget.AppCompatCheckedTextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/pokedex_text_view"/>
+        android:id="@+id/pokedex_text_view"
+        android:textSize="18dp"/>
 
 </LinearLayout>
